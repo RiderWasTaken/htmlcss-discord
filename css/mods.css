@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* -----tags----- */
+main {
+    background-image: url(jumbo.png);
+    background-size: cover;
+    height: 600px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 30px;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 25%;
+    cursor: pointer;
+}
+
+/* -----classes----- */
+
+
+
+/* -----id's----- */
+
+#logo-top {
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 15%;
+    cursor: pointer;
+}
+
+#login {
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+    position: relative;
+    left: 165px;
+    cursor: pointer;
+}
+
+#download {
+    background-color: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+    position: relative;
+    top: 200px;
+    left: 40%;
+    cursor: pointer;
+}
+
+#browser-app {
+    background-color: rgb(15, 15, 15);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 25px;
+    position: relative;
+    top: 200px;
+    left: 42%;
+    cursor: pointer;
+}
+
+#main-descr {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30%;
+}
