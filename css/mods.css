@@ -6,6 +6,7 @@
 }
 
 /* -----tags----- */
+
 main {
     background-image: url(jumbo.png);
     background-size: cover;
@@ -25,10 +26,39 @@ li {
     left: 25%;
     cursor: pointer;
 }
-
 /* -----classes----- */
 
+.descr-container {
+    /* background-image: url(wave.svg);
+    height: 600px; */
+    padding: 0 15% 0 15%;
+}
+.sub-container {
+}
 
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.descr-img- {
+    position: relative;
+    top: 35px;
+}
+
+.descr-text {
+    position: relative;
+    top: 35px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 /* -----id's----- */
 
